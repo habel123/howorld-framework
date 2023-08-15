@@ -19,7 +19,7 @@ public class Hooks {
         options.addArguments("--remote-allow-origins=*");
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
-        driver.get("https://magento2-demo.magebit.com");
+        driver.get("https://howoldru.m-messiah.cc/");
     }
 
 
@@ -28,8 +28,8 @@ public class Hooks {
 
     @After
     public void afterScenario(){
-        driver.close();
-        driver.quit();
+        //driver.close();
+        //driver.quit();
 
 
     }
