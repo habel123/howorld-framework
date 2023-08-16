@@ -10,5 +10,5 @@ Feature: Howord Account Management
 
 
     Examples:
-      | Name | Birthday   |
-      | Abel | 28/12/1997 |
+      | Name    | Birthday   |
+      | michael | 28/12/1988 |
