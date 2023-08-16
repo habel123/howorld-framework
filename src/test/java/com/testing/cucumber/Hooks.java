@@ -19,7 +19,7 @@ public class Hooks {
         options.addArguments("--remote-allow-origins=*");
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
-        driver.get("https://howoldru.m-messiah.cc/");
+        driver.get("https://age-test.m-messiah.cc/");
     }
 
 
